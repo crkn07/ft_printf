@@ -6,7 +6,7 @@
 /*   By: crtorres <crtorres@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 13:12:49 by crtorres          #+#    #+#             */
-/*   Updated: 2022/10/18 12:14:37 by crtorres         ###   ########.fr       */
+/*   Updated: 2022/12/01 16:34:50 by crtorres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
  */
 int	ft_putnbr_base_uns(unsigned int nbr, char *base)
 {
-	int	nbr_final[100];
+	int	nbr_final[16];
 	int	i;
 	int	prnthex;
 

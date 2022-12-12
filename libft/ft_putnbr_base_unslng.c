@@ -6,7 +6,7 @@
 /*   By: crtorres <crtorres@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 12:19:02 by crtorres          #+#    #+#             */
-/*   Updated: 2022/10/18 12:08:54 by crtorres         ###   ########.fr       */
+/*   Updated: 2022/12/12 19:03:34 by crtorres         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,10 @@
  */
 int	ft_putnbr_base_unslng(unsigned long nbr, char *base)
 {
-	int	nbr_final[100];
+	/* Creating an array of 16 integers. */
+	int	nbr_final[16];
 	int	i;
-	int	prnthex;	
+	int	prnthex;
 
 	i = 0;
 	prnthex = 0;
